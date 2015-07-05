@@ -24,9 +24,26 @@ angular.module('jkart', ['ngAnimate', 'ngTouch'])
         {src: '../pix/paintings/17-emergence.jpg', desc: 'Emergence', info: 'oil on canvas, 24" x 30". 1998.'},
         {src: '../pix/paintings/18-primaries.jpg', desc: 'Primaries', info: 'oil on panel, 18" x 21". 1994.'},
         {src: '../pix/paintings/19-yellow-square.jpg', desc: 'Yellow Square', info: '18" x 22", 1994.'},
-        {src: '../pix/paintings/20-element.jpg', desc: 'Element', info: 'oil on panel, 60" x 24". 1994.'},
+        {src: '../pix/paintings/20-element.jpg', desc: 'Element', info: 'oil on panel, 60" x 24". 1994.'}
     ];
 
+    // Set of drawings
+    $scope.drawings = [
+        {src: '../pix/drawings/01-avi.jpg', desc: 'Avi', info: 'pencil and chalk on paper, 14" x 18". 2014.'},
+        {src: '../pix/drawings/02-orphanage.jpg', desc: 'Orphanage', info: 'pen and pencil on paper. 16" x 26". 2015.'},
+        {src: '../pix/drawings/03-swan.jpg', desc: 'Swan', info: 'pen and colored pencil on paper. 8" x 10". 2010.'},
+        {src: '../pix/drawings/04-hares.jpg', desc: 'Hares', info: 'pen and colored pencil on paper, 12" x 16". 2010.'},
+        {src: '../pix/drawings/05-tortoise.jpg', desc: 'Tortoise', info: 'pen and colored pencil on paper, 12" x 16". 2010.'},
+        {src: '../pix/drawings/05a-dinosaur-drawing-etsy.jpg', desc: 'Dinosaur', info: 'pen and pencil on paper'},
+        {src: '../pix/drawings/06-public-face-I.jpg', desc: 'Public Face I', info: 'oil stick on primed paper, 32" x 48". 2008.'},
+        {src: '../pix/drawings/07-public-face-II.jpg', desc: 'Public Face II', info: 'oil stick on primed paper, 32" x 48". 2008.'},
+        {src: '../pix/drawings/08-public-face-III.jpg', desc: 'Public Face III', info: 'oil stick on primed paper, 32" x 48". 2008.'},
+        {src: '../pix/drawings/09-public-face-IV.jpg', desc: 'Public Face IV', info: 'oil stick on primed paper, 32" x 48". 2008.'},
+        {src: '../pix/drawings/10-public-face-V.jpg', desc: 'Public Face V', info: 'oil stick on primed paper, 32" x 48". 2008.'},
+        {src: '../pix/drawings/11-public-face-VI.jpg', desc: 'Public Face VI', info: 'oil stick on primed paper, 32" x 48". 2008.'},
+        {src: '../pix/drawings/12-accident.jpg', desc: 'Accident', info: 'pen and ink on paper. 12" x 16". 1986.'},
+        {src: '../pix/drawings/13-enclosure.jpg', desc: 'Enclosure', info: '30". 1988.'},
+    ];
     // initial image index
     $scope._Index = 0;
 
