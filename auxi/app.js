@@ -42,8 +42,19 @@ angular.module('jkart', ['ngAnimate', 'ngTouch'])
         {src: '../pix/drawings/10-public-face-V.jpg', desc: 'Public Face V', info: 'oil stick on primed paper, 32" x 48". 2008.'},
         {src: '../pix/drawings/11-public-face-VI.jpg', desc: 'Public Face VI', info: 'oil stick on primed paper, 32" x 48". 2008.'},
         {src: '../pix/drawings/12-accident.jpg', desc: 'Accident', info: 'pen and ink on paper. 12" x 16". 1986.'},
-        {src: '../pix/drawings/13-enclosure.jpg', desc: 'Enclosure', info: '30". 1988.'},
+        {src: '../pix/drawings/13-enclosure.jpg', desc: 'Enclosure', info: '30". 1988.'}
     ];
+
+    // Set of mixed-media
+    $scope.mixedmedia = [
+        {src: '../pix/mixed-media/01-constellation-of-beings.jpg', desc: 'Constellation of Beings', info: 'pencil'},
+        {src: '../pix/mixed-media/02-passage1.jpg', desc: 'Passage I', info: 'metal drain cover, wood, wax,paint, spices. 12" x 15" x 6". 1989.'},
+        {src: '../pix/mixed-media/03-passage2.jpg', desc: 'Passage II', info: '1.5". 1989.'},
+        {src: '../pix/mixed-media/04-rift.jpg', desc: 'Rift', info: 'oil on board, vellum.'},
+        {src: '../pix/mixed-media/05-verve.jpg', desc: 'Verve', info: 'wood, paper, paprika. 18" x 18" x 1". 1989.'},
+        {src: '../pix/mixed-media/06-singlet.jpg', desc: 'Singlet', info: 'wood, oil paint. 16" x 18", 1989.'}
+    ];
+
     // initial image index
     $scope._Index = 0;
 
