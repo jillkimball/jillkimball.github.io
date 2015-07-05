@@ -5,7 +5,7 @@ angular.module('jkart', ['ngAnimate', 'ngTouch'])
 
     // Set of Photos
     $scope.photos = [
-        {src: './pix/painting01.jpg', desc: 'Image 01'},
+        {src: '../pix/painting01.jpg', desc: 'Image 01'},
         {src: 'http://farm9.staticflickr.com/8449/7918424278_4835c85e7a_b.jpg', desc: 'Image 02'},
         {src: 'http://farm9.staticflickr.com/8457/7918424412_bb641455c7_b.jpg', desc: 'Image 03'},
         {src: 'http://farm9.staticflickr.com/8179/7918424842_c79f7e345c_b.jpg', desc: 'Image 04'},
